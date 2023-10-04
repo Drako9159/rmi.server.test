@@ -1,0 +1,6 @@
+//compile class
+
+javac MiInterface.java
+javac RMICliente.java
+javac RMIServer.java
+
