@@ -10,7 +10,7 @@ public class RMICliente {
                 MiInterface s = (MiInterface) Naming.lookup("rmiInterface");
                 System.out.println("Escribe tu nombre ...");
                 String input = br.readLine();
-                System.out.println(s.metodo(input));
+                System.out.println(s.method(input));
             } catch (Exception e) {
                 System.out.println("Exception " + e.getMessage());
             }

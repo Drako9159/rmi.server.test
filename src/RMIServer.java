@@ -4,7 +4,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class RMIServer extends UnicastRemoteObject implements MiInterface {
     @Override
-    public String metodo(String input) throws RemoteException {
+    public String method(String input) throws RemoteException {
         System.out.println("Tu entrada " + input + " fue enviada al servidor");
         String respuesta;
         respuesta = "Hola " + input;
